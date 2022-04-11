@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+}
+
+.nav{
+  width: 90%;
+  padding: 15px 5%;
+  background: greenyellow;
+}
+
+.nav button{
+  width: 100px;
+  height: 35px;
+  background: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+  font-family: montserrat;
+}
+
+.nav button:hover{
+  background: rebeccapurple;
+  color: white;
+}
+
+.container{
+  padding: 15px 5%;
+  background: rebeccapurple;
+  color: white;
+  font-family: montserrat;
+}
