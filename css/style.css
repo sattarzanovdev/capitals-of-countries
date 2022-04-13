@@ -18,6 +18,7 @@ body{
   cursor: pointer;
   transition: .5s;
   font-family: montserrat;
+  transition: .5s;
 }
 
 .nav button:hover{
@@ -30,4 +31,19 @@ body{
   background: rebeccapurple;
   color: white;
   font-family: montserrat;
+}
+
+.london.active{
+  background: rebeccapurple;
+  color: white;
+}
+
+.moscow.active{
+  background: rebeccapurple;
+  color: white;
+}
+
+.vaduz.active{
+  background: rebeccapurple;
+  color: white;
 }
